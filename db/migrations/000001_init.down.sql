@@ -1,0 +1,4 @@
+DROP INDEX IF EXISTS listings_search_idx;
+DROP TABLE IF EXISTS bookmarks;
+DROP TABLE IF EXISTS listings;
+DROP TABLE IF EXISTS users;

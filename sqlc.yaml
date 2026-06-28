@@ -1,0 +1,9 @@
+version: "2"
+sql:
+  - schema: "db/migrations"
+    queries: "db/queries"
+    gen:
+      go:
+        package: "db"
+        out: "internal/repository/db"
+        emit_json_tags: true
