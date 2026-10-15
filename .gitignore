@@ -1,0 +1,24 @@
+# Secrets and Config
+.env
+
+# Go binaries and builds
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+
+# Test coverage
+coverage
+coverage.txt
+*.out
+*.test
+
+# Dependency directories
+vendor/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+db.db
